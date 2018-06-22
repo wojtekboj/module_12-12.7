@@ -9,7 +9,6 @@ function Column(id, name) {
         id: this.id
     });
 
-
     // Button for deleting the column
     this.element.querySelector('.column').addEventListener('click', function (event) {
         if (event.target.classList.contains('btn-delete')) {
